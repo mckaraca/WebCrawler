@@ -6,7 +6,6 @@ import time
 import json
 
 chrome_path = r"chromedriver.exe"
-# firefox_path = r"C:\Users\Asus\Desktop\geckodriver.exe"
 seleniumDriver = webdriver.Chrome(chrome_path)
 x = 0
 seleniumDriver.set_page_load_timeout(30)
